@@ -1,0 +1,54 @@
+body {
+  background:#ffda79;
+}
+
+.info {
+  text-align: center;
+}
+.info h2 {
+  font-size: 25px;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background: white;
+  border: solid black 5px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  transition: 0.4s;
+}
+.links a:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.9);
+}
+footer {
+  background: #2980b9;
+  bottom: 0;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+footer h1 {
+  font-size: 20px;
+}
+a i {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+a i:hover {
+  color: #192a56;
+}
